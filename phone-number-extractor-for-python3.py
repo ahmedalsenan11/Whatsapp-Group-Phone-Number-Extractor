@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # import BeautiufulSoup class from bs4 package
 from bs4 import BeautifulSoup
@@ -28,7 +28,7 @@ def main():
     for i in soup.find_all('span'):
         # if we found span element with class attribute "emojitext ellipsify" and its title attribute on None
         if i.get('class') == ['emojitext', 'ellipsify'] and i.get("title") is not None:
-            print concatenate(i.get_text())
+            print (concatenate(i.get_text()))
             number_of_contact += 1
 
     print "The Total Number of Contacts are %s" % (number_of_contact,)

@@ -5,7 +5,7 @@
   in the program/script .
   
 * Dependencies of Script ?
-      * you should have installed python2.7/3  or any python ide like pycharm etc .
+      * you should have installed python2.7/3 + (optional) any python ide like pycharm etc .
       * you have install package bs4
         * install pip 
         * now you can install bs4 using command ```pip install bs4``` 
